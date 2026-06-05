@@ -1,0 +1,42 @@
+#contact {
+  text-align: center;
+  padding: 4rem 1rem;
+  border-top: 1px solid #1a1a1a;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.socialLinks {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.socialLink {
+  color: #fff;
+  transition: color 0.3s;
+  font-weight: 700;
+}
+
+.socialLink:hover {
+  color: var(--accent-cyan);
+}
+
+.downloadBtn {
+  margin-top: 1rem;
+  background: #1a1a1a;
+  color: #fff;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  font-family: 'Space Mono', monospace;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.8rem;
+  border-radius: 4px;
+}
+
+.downloadBtn:hover {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+}

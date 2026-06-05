@@ -1,0 +1,50 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.heroGlitch {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 0 0 10px rgba(100, 255, 218, 0.3);
+}
+
+.heroSubtitle {
+  font-size: 1.2rem;
+  color: var(--accent-purple);
+  margin-bottom: 2rem;
+  font-family: 'Space Mono', monospace;
+}
+
+.heroBtn {
+  padding: 12px 32px;
+  border: 1px solid var(--accent-cyan);
+  color: var(--accent-cyan);
+  font-family: 'Space Mono', monospace;
+  font-size: 0.9rem;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.heroBtn:hover {
+  background: rgba(100, 255, 218, 0.1);
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.2);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .heroGlitch {
+    font-size: 2.5rem;
+  }
+}
