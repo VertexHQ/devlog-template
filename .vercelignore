@@ -4,8 +4,6 @@ npm-debug.log
 .gitignore
 README.md
 .env.example
-src
-public
 devlog port folio.html
 guidline.md
 MIGRATION_GUIDE.md
