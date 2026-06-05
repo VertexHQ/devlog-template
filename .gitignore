@@ -31,3 +31,4 @@ dist-ssr
 # Build files
 build/
 .parcel-cache/
+.vercel

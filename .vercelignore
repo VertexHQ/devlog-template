@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+README.md
+.env.example
+src
+public
+devlog port folio.html
+guidline.md
+MIGRATION_GUIDE.md
+QUICK_START.md
+IMPLEMENTATION_SUMMARY.md
+COMPLETION_CHECKLIST.md
